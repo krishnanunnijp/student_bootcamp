@@ -35,6 +35,10 @@ public class Main {
                 case 2:
                     Student.viewStudent(student);
                     break;
+                case 3:
+                    int search=input.nextInt();
+                    Student.searchStudent(search, student);
+                    break;
             }
         }
     }

@@ -34,4 +34,17 @@ public class Student {
             System.out.println(student.get(i).toString());
         }
     }
+    public static void searchStudent(int admNumber, ArrayList<Student> student) {
+        int flag=0;
+        for (int i = 0; i < student.size(); i++) {
+            if(student.get(i).admNumber==admNumber){
+                flag=1;
+            }
+        }
+        if (flag == 0) {
+            System.out.println("not found");
+        }else {
+            System.out.println("found");
+        }
+    }
 }

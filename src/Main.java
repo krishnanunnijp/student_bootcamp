@@ -39,6 +39,10 @@ public class Main {
                     int search=input.nextInt();
                     Student.searchStudent(search, student);
                     break;
+                case 4:
+                    int delete=input.nextInt();
+                    Student.deleteStudent(1231, student);
+                    break;
             }
         }
     }

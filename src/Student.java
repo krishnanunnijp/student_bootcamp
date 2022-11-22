@@ -47,4 +47,12 @@ public class Student {
             System.out.println("found");
         }
     }
+    public static void deleteStudent(int admNumber,ArrayList<Student> student) {
+        int flag=0;
+        for (int i = 0; i < student.size(); i++) {
+            if(student.get(i).admNumber==admNumber){
+                student.remove(student.get(i));
+            }
+        }
+    }
 }

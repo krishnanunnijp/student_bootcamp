@@ -33,7 +33,7 @@ public class Main {
                     student.add(student1);
                     break;
                 case 2:
-                    Student.viewEmployees(student);
+                    Student.viewStudent(student);
                     break;
             }
         }

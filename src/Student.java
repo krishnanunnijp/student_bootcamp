@@ -28,7 +28,7 @@ public class Student {
                 ", email='" + email + '\'' +
                 '}';
     }
-    public static void viewEmployees(ArrayList<Student> student) {
+    public static void viewStudent(ArrayList<Student> student) {
         System.out.println(student.size());
         for (int i = 0; i < student.size(); i++) {
             System.out.println(student.get(i).toString());

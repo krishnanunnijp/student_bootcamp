@@ -32,6 +32,9 @@ public class Main {
                     student1.addEmployee(admNumber, name, rollNumber,collegeName, phoneNumber, email);
                     student.add(student1);
                     break;
+                case 2:
+                    Student.viewEmployees(student);
+                    break;
             }
         }
     }
